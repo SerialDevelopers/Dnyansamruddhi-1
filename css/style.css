@@ -12,14 +12,3 @@ html, body {
     overflow-x: hidden;
 }
 
-.square {
-    background: #000;
-    height: 100%;
-    width: 100%;
-}
-.square h2 {
-    color: white;
-    font-family: titleFont;
-    word-spacing: 10px;
-    line-height: 30px;
-}
