@@ -13,6 +13,11 @@
             width: 100%;
             margin: auto;
         }
+        .bg{
+            background-image: url("images/stud1.jpg");
+            height: 100%;
+            width: 100%;
+        }
     </style>
     <link rel="stylesheet" href="css/animate.css">
 </head>
@@ -68,12 +73,12 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="item active">
-                <div>
-                    <img src="images/students.jpg" alt="" style="width: 20%; height: 50%;" class="wow rollIn">
+            <div class="bg item active animated wobble">
+                <div style="padding-top: 1%; padding-left: 5%">
+                    <img src="images/students.jpg" alt="" style="width: 20%; height: 50%; border-radius: 25px; border: 5px solid" class="wow rollIn" data-wow-delay="1s">
                 </div>
                 <div class="carousel-caption">
-                    <h3 class="animated bounceInDown">Akshay Naik</h3>
+                    <h3 class="animated bounceInDown" style="color: white;">Akshay Naik</h3>
                     <p>No. 01 Teacher</p>
                 </div>
             </div>
