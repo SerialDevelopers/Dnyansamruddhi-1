@@ -12,14 +12,35 @@ html, body {
     overflow-x: hidden;
 }
 
-.square {
-    background: #000;
-    height: 100%;
-    width: 100%;
-}
-.square h2 {
+#hov1:hover {
+    background-color: #701C72;
     color: white;
-    font-family: titleFont;
-    word-spacing: 10px;
-    line-height: 30px;
+}
+#hov2:hover {
+    background-color: #701C72;
+    color: white;
+}
+#hov3:hover {
+    background-color: #701C72;
+    color: white;
+}
+#hov4:hover {
+    background-color: #701C72;
+    color: white;
+}
+#hov5:hover {
+    background-color: #701C72;
+    color: white;
+}
+#hov6:hover {
+    background-color: #701C72;
+    color: white;
+}
+#hov7:hover {
+    background-color: #701C72;
+    color: white;
+}
+#hov8:hover {
+    background-color: #701C72;
+    color: white;
 }

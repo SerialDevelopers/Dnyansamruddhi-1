@@ -3,9 +3,9 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Dnyansamruddhi coaching classes</title>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/theme.min.css">
+    <link rel="stylesheet" href="bower_components/hover/css/hover-min.css">
     <style type="text/css">
         .item {
             background-color: white;
@@ -22,7 +22,10 @@
     <link rel="stylesheet" href="css/animate.css">
 </head>
 <body class="img-responsive" style="background-image: url('images/classroom.jpg'); background-size: cover; background-repeat: no-repeat">
-<nav class="navbar navbar-default">
+<header style="background-color: white">
+    <img class="img-responsive center-block" src="images/title.jpg" style="height: 50%; width: 50%">
+</header>
+<nav class="navbar navbar-default" id="nav_bar">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -32,23 +35,21 @@
                 <span class="icon-bar"></span>
             </button>
             <img src="images/logo.png" style="height: 60px; width: 60px">
-            <span style="font-family: titleFont">DnyanSamrudhi</span>
+            <span style="font-family: titleFont; color:#701C72"><b>DnyanSamrudhi</b></span>
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#" id="hov1" class="button hvr-float">Link</a></li>
+                <li><a href="#" id="hov2" class="button hvr-float">Link</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle button hvr-float" id="hov3" data-toggle="dropdown" role="button" aria-expanded="false">Courses <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
+                        <li><a id="hov4" class="button hvr-forward" href="#">SSC</a></li>
+                        <li><a id="hov5" class="button hvr-forward" href="#">HSC</a></li>
+                        <li><a id="hov6" class="button hvr-forward" href="#">CET</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
+                        <li><a id="hov7" class="button hvr-forward" href="#">NEET</a></li>
                     </ul>
                 </li>
             </ul>
@@ -56,11 +57,8 @@
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search">
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" id="hov8" class="btn btn-default button hvr-float">Submit</button>
             </form>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-            </ul>
         </div>
     </div>
 </nav>
@@ -101,11 +99,11 @@
         </a>
     </div>
 </div>
-
 <script src="bower_components/angular/angular.min.js"></script>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/wow/dist/wow.min.js"></script>
+<script src="js/navshrink.js "></script>
 <script>
     new WOW().init();
 </script>
